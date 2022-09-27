@@ -1,0 +1,31 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+header {
+    background-color: greenyellow;
+}
+.navBar{
+
+}
+.logo{
+
+
+
+}
+
+.menu{
+    padding-right: 2rem;
+    position: relative;
+    left: 15rem;
+    bottom: 1rem;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
