@@ -10,7 +10,7 @@
 nav {
 
   height: 75px;
-  background-color: #505d61;
+  background-color: #fe4a49;
   line-height: 75px;
   padding: 0px 100px;
   z-index: 1;
@@ -54,15 +54,10 @@ nav ul li a:hover {
   color: #c0d96f;
 }
 
-nav ul li .active {
-  color: #c0d96f;
-}
-
 #inputSearch {
   float: right;
   padding: 10px 10px;
   padding-right: 4rem;
-  margin-right: 0.5rem;
   margin-top: 1rem;
 }
 
@@ -77,18 +72,37 @@ nav ul li .active {
   float: left;
   clear: none;
   text-transform: uppercase;
+
 }
 
 .imagenes {
-  margin-right: 20rem;
-  margin-left: 20rem;
+  margin-inline: 32rem;
+  display: flex;  
+  flex-direction: row; 
+  justify-content: space-between;
 }
 
 .icono {
-    margin: 0 15px 0 0;
-    float: left;
-    width: 30px;
-    height: 30px;
+  margin: 0 15px 0 0;
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-left: 2rem;
 }
 
+table {
+  margin-inline: 22rem;
+  width: 59rem;
+  
+}
+
+table tr td a {
+  text-decoration: none;
+  color: black;
+}
+
+table tr td a:hover {
+  text-decoration: none;
+  color: #fe4a49;
+}
 
