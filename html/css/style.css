@@ -8,7 +8,6 @@
 }
 
 nav {
-
   height: 75px;
   background-color: #fe4a49;
   line-height: 75px;
@@ -79,7 +78,7 @@ nav ul li a:hover {
   margin-inline: 32rem;
   display: flex;  
   flex-direction: row; 
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .icono {
@@ -90,19 +89,27 @@ nav ul li a:hover {
   margin-left: 2rem;
 }
 
-table {
-  margin-inline: 22rem;
-  width: 59rem;
-  
+.grid {
+  display: grid;  
+  /* 1 columnas */
+  grid-template-columns: 1fr 1fr; 
+      /* 1 filas */
+ 
+
+  grid-column-gap: 50px;
+
+
 }
 
-table tr td a {
-  text-decoration: none;
-  color: black;
-}
-
-table tr td a:hover {
+.g1  {
   text-decoration: none;
   color: #fe4a49;
+margin-left: 35rem;
 }
+.g2 {
+  text-align: center;
+  margin-right: 35rem;
+  }
+
+
 
