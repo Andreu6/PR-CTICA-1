@@ -107,16 +107,29 @@ color: #fe4a49;
 .grid-destacados {
   display: grid;
   /* 1 columnas */
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 50px;
+  grid-template-columns: 1fr 1fr ;
 }
 
-.g1 {
+.g1-destacado {
   margin-left: 22rem;
+}
+
+.g2-destacado {
+  margin-right: 43rem;
+}
+
+.grid-ultimas {
+  display: grid;
+  /* 1 columnas */
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.g1-ultimas {
+
   
 }
 
-.g2 {
-  text-align: center;
-  margin-right: 43rem;
+.g2-ultimas {
+
+
 }
