@@ -76,8 +76,8 @@ nav ul li a:hover {
 
 .imagenes {
   margin-inline: 32rem;
-  display: flex;  
-  flex-direction: row; 
+  display: flex;
+  flex-direction: row;
   justify-content: flex-end;
 }
 
@@ -89,27 +89,34 @@ nav ul li a:hover {
   margin-left: 2rem;
 }
 
-.grid {
-  display: grid;  
-  /* 1 columnas */
-  grid-template-columns: 1fr 1fr; 
-      /* 1 filas */
- 
 
-  grid-column-gap: 50px;
-
-
+.titles {
+    font-weight: 400;
+    text-align: left;
 }
 
-.g1  {
+a {
   text-decoration: none;
-  color: #fe4a49;
-margin-left: 35rem;
+  color: black;
 }
+
+a:hover {
+color: #fe4a49;
+}
+
+.grid-destacados {
+  display: grid;
+  /* 1 columnas */
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px;
+}
+
+.g1 {
+  margin-left: 22rem;
+  
+}
+
 .g2 {
   text-align: center;
-  margin-right: 35rem;
-  }
-
-
-
+  margin-right: 43rem;
+}
