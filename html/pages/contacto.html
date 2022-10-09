@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/css.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Contacto</title>
 </head>
 
@@ -22,40 +22,45 @@
 			<li><a href="dmca.html">Dmca</a></li>
 		</ul>
 	</nav>
-    <br><br><br><br>
-    <p>CONTACTO</p>
-    <input type="search" placeholder="buscador">
-    <br><br>
-    <form>
-        <div>
-            <label for="">Nombre</label>
-            <input type="text" name="nombre" id="">
-        </div>
+    <div class="alinear">
+        <input id="inputSearch" type="search" placeholder="buscador">
         <br>
-        <div>
-            <label for="">Correo</label>
-            <input type="email" name="correo" id="">
-        </div>
-        <p>ANTES DE SOLICITAR REVISA QUE NO ESTE EN LA PÁGINA, SE HAN RECIBIDO MUCHOS PEDIDOS QUE YA ESTÁN</p>
-        <br>
-        <div>
-            <label for="">Juego a solicitar</label>
-            <input type="text" name="juego" id="">
-        </div>
-        <br>
-        <div>
-            <label for="">Mensaje adicional</label>
-            <br>
-            <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
-        </div>
-        <button type="submit">Enviar</button>
-    </form>
-    <br>
-    <hr>
-    <footer>
-        <p><img src="../assets/logo.png" alt="logo"> <img src="../assets/Instagram.webp" alt="instagram"> <img src="../assets/reddit.png"
-                alt="reddit"> <img src="../assets/tiktok.png" alt="tiktok"> <img src="../assets/twitter.png" alt="twitter"></p>
-    </footer>
+      </div>
+    <div class="container">  
+      <form id="contact" action="" method="post">
+        <h3>Contacto</h3>
+        <h4>Antes de solicitar revisa que no este en la página, se han recibido muchos pedidos que ya están.</h4>
+        <fieldset>
+          <input placeholder="Tu nombre" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Tu correo" type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Juego a solicitar" type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+          <textarea placeholder="Mensaje adicional" tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
+        </fieldset>
+      </form>
+     <br>
+    </div>
+    <hr style="margin-left: 20rem; margin-right: 20rem;">
+  <br>
+  <footer>
+    <div class="footer">
+      <div class="redes">
+        <img src="../assets/logo.png" alt="logo">
+        <img src="../assets/instagram.svg" alt="instagram">
+        <img src="../assets/reddit.svg" alt="reddit">
+        <img src="../assets/tiktok.svg" alt="tiktok">
+        <img src="../assets/twitter.svg" alt="twitter">
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
