@@ -39,6 +39,25 @@ nav .logo p {
   text-transform: uppercase;
 }
 
+footer {
+  height: 130px;
+  background-color: #fe4a49;
+  padding-top: 30px;
+}
+
+footer .logo-footer {
+  font-size: 100px;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  margin-left: 5rem;
+}
+
+footer .logo-footer p {
+  float: left;
+  color: #fff;
+  text-transform: uppercase;
+}
+
 nav ul {
 
   margin-left: 18rem;
@@ -137,18 +156,14 @@ color: #fe4a49;
   grid-row-gap: 5rem;
 }
 
-.footer {
-  display: flex; 
-  align-items: center;
-  grid-column-gap: 2rem;
-  width: 3rem;
-
-}
-
 .redes {
   display: flex;
   grid-column-gap: 2rem;
   width: 3rem;
+  align-items: center;
+  padding-top: 10px;
+  margin-left: 40rem;
+  
 }
 
 .container {
